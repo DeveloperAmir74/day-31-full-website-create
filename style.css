@@ -1,0 +1,303 @@
+body,
+h1,
+h2,
+h3,
+h4 h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* menu-section */
+
+.menu-btn a {
+    font-weight: 900;
+    text-align: right;
+}
+
+.menu5 {
+    margin-left: 137px;
+}
+
+.menu-btn {
+    margin-left: 418px;
+}
+
+.menu-icon {
+    color: black;
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.216);
+}
+
+span {
+    background-color: #6278df;
+    color: white;
+    padding: 12px 14px;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* slider-section */
+
+.slider-section {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url( http://agellusgroup.com/wp-content/uploads/2015/10/image-slider-2-home-main.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+a {
+    display: block;
+    list-style: none;
+}
+
+.emil {
+    transform: translate(391px, 73px);
+}
+
+.emil .form-control:focus {
+    box-shadow: 2px 2px 20px #6278df;
+}
+
+.app {
+    transform: translate(313%, 0);
+    max-width: 220px;
+    background: #5ba533;
+    border: none;
+    font-weight: 900;
+}
+
+.app:hover {
+    background-color: #fffdfd;
+    color: #6278df;
+    border: none;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #6278df;
+}
+
+.fomr-e {
+    transform: translate(-43px, 10px);
+}
+
+/* counter-secotion */
+
+section.counter-section {
+    margin-left: -23px;
+}
+
+/* about-section */
+
+img {
+    max-width: 100%;
+}
+
+.about-setion2 {
+    background-color: #f6f6f7e6;
+    margin-top: 132px;
+}
+
+.about-donw {
+    margin-top: 55px;
+}
+
+p.about-p {
+    font-size: 24px;
+    line-height: 33px;
+}
+
+/* <!-- feature-seciton --> */
+
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-text-sec {
+    width: 56%;
+    transform: translate(10px, 10px);
+    padding: 20px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto;
+     !important: ;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+/* <!-- service-section --> */
+
+h4.text-center {
+    font-size: 50px;
+}
+
+.portfolio-item a {
+    display: block;
+    position: relative;
+}
+
+.portfolio-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.portfolio-item:hover a::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* plan-section */
+
+.planner-section {
+    background-color: #f7f9ff;
+}
+
+.text-muted {
+    color: #6c757d !important;
+    line-height: 45px;
+}
+
+.text-muted i {
+    color: #6278df;
+    font-size: 30px;
+}
+
+.card-div:hover {
+    box-shadow: 0px 0px 20px #6279df80;
+}
+
+.card-div:hover .btn {
+    color: white;
+    background-color: #3d5be0cc;
+}
+
+.fa-quote-icon .fa-solid {
+    color: #d9dbdd44;
+    font-size: 150px;
+}
+
+/* user-section */
+
+.user-text,
+h3 {
+    font-size: 42px;
+}
+
+.user-img a img {
+    border-radius: 50%;
+    width: 5%;
+}
+
+/* team-section */
+
+.team-section {
+    background-color: #eaedf385;
+}
+
+.img-1.rounded-circle {
+    border-radius: 50% !important;
+    margin-top: -1px;
+    padding: 1px 13px;
+    transform: translate(-2px, -70px);
+}
+
+.card-h {
+    margin-top: 150px;
+}
+
+.card-h:hover {
+    box-shadow: 2px 2px 50px #6179e375;
+}
+
+/* <!-- form-section --> */
+
+.form-div {
+    margin-left: 315px;
+}
+
+textarea#exampleFormControlTextarea1 {
+    transform: translate(10px, 10px);
+    height: 150px;
+}
+
+.form-div1:hover {
+    box-shadow: 5px 5px 30px rgba(98, 121, 223, 0.851);
+}
+
+h5.text-center6 {
+    transform: translate(0px, -18px);
+}
+
+button.btn.btn-outline-dark.w-25.mt-lg-5.btn {
+    transform: translate(200px, 10px);
+}
+
+.btn4 {
+    background-color: #6278df;
+    color: white;
+    font-weight: 900;
+}
+
+.btn4:hover {
+    background-color: white;
+    color: rgba(98, 121, 223, 0.938);
+    font-weight: 900;
+    box-shadow: 4px 5px 25px rgba(98, 121, 223, 0.938);
+}
+
+/* <!-- app-story-section --> */
+
+.button-2 {
+    margin-left: -20%;
+    text-align: left;
+}
+
+.img img {
+    max-width: 30%;
+    margin-top: 50px;
+    margin-left: 296px;
+}
+/* footer-section */
+
+.footer {
+    background-color: #5ba533;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer .f-text:hover {
+    background-color: #6278df;
+    color: #f1c40f;
+}
+/* End project */
